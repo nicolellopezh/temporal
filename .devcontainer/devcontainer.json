@@ -1,0 +1,18 @@
+{
+  "name": "Java 25 + Spring Boot",
+  "image": "mcr.microsoft.com/devcontainers/java:25-bookworm",
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.import.gradle.java.home": "/opt/java/openjdk"
+      },
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "humao.rest-client"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
